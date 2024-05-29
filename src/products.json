@@ -1,0 +1,118 @@
+{
+    "lip_collection": [
+        {
+            "product_name": "Cherry Pop Lipstick",
+            "tagline": "Make it pop with this bold lipstick.",
+            "description": "Cherry Pop will have your lips dancing all day long with its creamy, long-lasting formula. Packed with juicy cherry extract, it keeps your lips vibrant, hydrated, and oh-so-kissable!",
+            "colour_options": [
+                {
+                    "name": "Cherry Bomb",
+                    "description": "Dive into a deep, sultry cherry red and make every evening unforgettable."
+                },
+                {
+                    "name": "Ruby Rush",
+                    "description": "Exude confidence and glamour with this classic, rich red."
+                },
+                {
+                    "name": "Pink Blossom",
+                    "description": "Soft, romantic pink for your everyday fairy tale."
+                },
+                {
+                    "name": "Coral Crush",
+                    "description": "Infuse tropical vibes into your look with this fun coral-pink shade."
+                }
+            ]
+        },
+        {
+            "product_name": "Cherry Crush Matte Lipstick",
+            "tagline": "Experience the perfect matte finish with Cherry Crush Matte Lipstick.",
+            "description": "Get that velvety, matte perfection with Cherry Crush! This smooth, full-coverage lipstick is enriched with cherry seed oil, ensuring your lips stay moisturised and utterly fabulous without a hint of shine.",
+            "colour_options": [
+                {
+                    "name": "Crimson",
+                    "description": "Ignite your look with this intense, fiery red."
+                },
+                {
+                    "name": "Blush",
+                    "description": "Embrace subtle beauty with this delicate, muted pink."
+                },
+                {
+                    "name": "Peachy",
+                    "description": "Freshen up with this peach-toned pink, perfect for sunny days."
+                },
+                {
+                    "name": "Merlot",
+                    "description": "Unleash your mysterious side with this deep, wine-red hue."
+                }
+            ]
+        },
+        {
+            "product_name": "Cherry Gloss Lipstick",
+            "tagline": "For a luscious, glossy finish, choose Cherry Gloss Lipstick.",
+            "description": "Shine bright with Cherry Gloss! This high-shine lipstick delivers a burst of colour and a nourishing blend of cherry extract and vitamin E, leaving your lips soft, glossy, and irresistible.",
+            "colour_options": [
+                {
+                    "name": "Ruby Shine",
+                    "description": "Light up the room with this bright, ruby red gloss."
+                },
+                {
+                    "name": "Peony Pink",
+                    "description": "Add a touch of sparkle with this shimmering pink."
+                },
+                {
+                    "name": "Cherry Plum",
+                    "description": "Perfect for a night out, this rich, plummy cherry shade is a showstopper."
+                },
+                {
+                    "name": "Rose Blush",
+                    "description": "Everyday elegance is yours with this soft, romantic pink."
+                }
+            ]
+        }
+    ],
+    "eye_collection": [
+        {
+            "product_name": "Cherry Twist Eyeshadow Palette",
+            "tagline": "Twist and shout with vibrant hues!",
+            "description": "Unleash your inner artist with the Cherry Twist Eyeshadow Palette. Featuring a blend of rich, cherry-inspired colours and silky textures, these shades blend effortlessly for any look - from everyday chic to nighttime drama.",
+            "shades": [
+                {
+                    "name": "Sweet Cherry",
+                    "description": "shimmery pink"
+                },
+                {
+                    "name": "Wild Berry",
+                    "description": "bold purple"
+                },
+                {
+                    "name": "Crimson",
+                    "description": "sparkling red"
+                },
+                {
+                    "name": "Midnight Cherry",
+                    "description": "deep matte black"
+                }
+            ]
+        },
+        {
+            "product_name": "Cherry Bloom Mascara",
+            "tagline": "Flutter with fabulous lashes!",
+            "description": "Make your lashes bloom with Cherry Bloom Mascara! This volumising and lengthening formula is infused with cherry blossom extract, giving your lashes a luscious, feather-light feel.",
+            "features": [
+                "Volumising and lengthening",
+                "Cherry blossom extract for a soft touch",
+                "Smudge-proof and long-lasting"
+            ]
+        },
+        {
+            "product_name": "Cherry Liner",
+            "tagline": "Line it up with luscious precision!",
+            "description": "Get the perfect line every time with Cherry Liner. This ultra-precise eyeliner is enriched with cherry extract for a smooth glide and long-lasting, smudge-proof wear.",
+            "options": [
+                "Classic Black",
+                "Rich Brown",
+                "Berry Blue"
+            ]
+        }
+    ]
+}

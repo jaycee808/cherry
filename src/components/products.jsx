@@ -2,8 +2,18 @@ import React from 'react'
 
 const Products = () => {
   return (
-    <div>
-      <h1>The Product Catalogue</h1>
+    <div className="product-display">
+
+      <div className="product-category">
+        <h2>Lips</h2>
+        <button>Shop Now</button>
+      </div>
+
+      <div className="product-category">
+        <h2>Eyes</h2>
+        <button>Shop Now</button>
+      </div>
+
     </div>
   )
 }
