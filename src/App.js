@@ -1,24 +1,32 @@
-import React from 'react'
+import React from 'react';
 import { Routes, Route } from 'react-router-dom'
 
-// routes
-import Navigation from './routes/navigation/navigation'
-import Home from './routes/home/home.route'
-import Shop from './routes/shop/shop.route'
-import About from './routes/about/about.route'
-import Contact from './routes/contact/contact.route'
+// contexts
+import CartProvider from './contexts/CartContext';
 
-const App = () => {
-  return (
-    <Routes>
-      <Route path="/" element={<Navigation />}>
-        <Route index element={<Home />}/>
-        <Route path="shop" element={<Shop />}/>
-        <Route path="about" element={<About />}/>
-        <Route path="contact" element={<Contact />}/>
-      </Route>
-    </Routes>
-  )
-};
+// routes
+import Navigation from './routes/navigation.route';
+import Home from './routes/home.route';
+import Shop from './routes/shop.route';
+import Cart from './routes/cart.route';
+import About from './routes/about.route';
+import Contact from './routes/contact.route';
+
+
+function App() {
+    return (
+        <CartProvider>
+          <Routes>
+            <Route path="/" element={<Navigation />}>
+              <Route index element={<Home />}/>
+              <Route path="shop" element={<Shop />}/>
+              <Route path="about" element={<About />}/>
+              <Route path="contact" element={<Contact />}/>
+              <Route path="cart" element={<Cart />}/>
+            </Route>
+          </Routes>
+        </CartProvider>
+    );
+}
 
 export default App;

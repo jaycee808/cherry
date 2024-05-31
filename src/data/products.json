@@ -2,6 +2,7 @@
     "lip_collection": [
         {
             "product_name": "Cherry Pop Lipstick",
+            "id": "lips-1",
             "tagline": "Make it pop with this bold lipstick.",
             "description": "Cherry Pop will have your lips dancing all day long with its creamy, long-lasting formula. Packed with juicy cherry extract, it keeps your lips vibrant, hydrated, and oh-so-kissable!",
             "colour_options": [
@@ -25,6 +26,7 @@
         },
         {
             "product_name": "Cherry Crush Matte Lipstick",
+            "id": "lips-2",
             "tagline": "Experience the perfect matte finish with Cherry Crush Matte Lipstick.",
             "description": "Get that velvety, matte perfection with Cherry Crush! This smooth, full-coverage lipstick is enriched with cherry seed oil, ensuring your lips stay moisturised and utterly fabulous without a hint of shine.",
             "colour_options": [
@@ -48,6 +50,7 @@
         },
         {
             "product_name": "Cherry Gloss Lipstick",
+            "id": "lips-3",
             "tagline": "For a luscious, glossy finish, choose Cherry Gloss Lipstick.",
             "description": "Shine bright with Cherry Gloss! This high-shine lipstick delivers a burst of colour and a nourishing blend of cherry extract and vitamin E, leaving your lips soft, glossy, and irresistible.",
             "colour_options": [
@@ -73,6 +76,7 @@
     "eye_collection": [
         {
             "product_name": "Cherry Twist Eyeshadow Palette",
+            "id": "eyes-1",
             "tagline": "Twist and shout with vibrant hues!",
             "description": "Unleash your inner artist with the Cherry Twist Eyeshadow Palette. Featuring a blend of rich, cherry-inspired colours and silky textures, these shades blend effortlessly for any look - from everyday chic to nighttime drama.",
             "shades": [
@@ -96,6 +100,7 @@
         },
         {
             "product_name": "Cherry Bloom Mascara",
+            "id": "eyes-2",
             "tagline": "Flutter with fabulous lashes!",
             "description": "Make your lashes bloom with Cherry Bloom Mascara! This volumising and lengthening formula is infused with cherry blossom extract, giving your lashes a luscious, feather-light feel.",
             "features": [
@@ -106,6 +111,7 @@
         },
         {
             "product_name": "Cherry Liner",
+            "id": "eyes-3",
             "tagline": "Line it up with luscious precision!",
             "description": "Get the perfect line every time with Cherry Liner. This ultra-precise eyeliner is enriched with cherry extract for a smooth glide and long-lasting, smudge-proof wear.",
             "options": [
