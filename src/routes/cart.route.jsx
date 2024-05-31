@@ -12,9 +12,11 @@ const Cart = () => {
             ) : (
                 cart.map((product, index) => (
                     <div key={index} className="cart-product">
-                        <h2>{product.product_name}</h2>
-                        <p className="product-tagline">{product.tagline}</p>
-                        <p className="product-tagline">{product.description}</p>
+                        <h2>{product.name}</h2>
+                        <p className="product-tagline">{product.type.toUpperCase()}</p>
+                        <p className="product-price">
+                            <strong>Price:</strong> {product.price}
+                        </p>
                         <button
                             className="remove-button"
                             onClick={() => removeFromCart(product.id)}>

@@ -133,11 +133,22 @@ a {
   padding: 20px;
   margin-bottom: 20px;
   background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-bottom: 20px;
 }
 
 .product-title {
   font-size: 1.5em;
   color: #FF007F;
+  text-align: center;
 }
 
 .product-tagline, .product-description, .product-feature, .product-option {
