@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { CartContext } from '../contexts/CartContext';
 import Products from '../data/products.json';
 
-function Shop() {
+const Shop = () => {
     const { addToCart } = useContext(CartContext);
 
     const renderProduct = (product, index) => (
