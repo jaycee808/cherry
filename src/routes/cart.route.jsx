@@ -13,8 +13,8 @@ const Cart = () => {
                 cart.map((product, index) => (
                     <div key={index} className="cart-product">
                         <h2>{product.product_name}</h2>
-                        <p className="italic mb-2">{product.tagline}</p>
-                        <p className="mb-4">{product.description}</p>
+                        <p className="product-tagline">{product.tagline}</p>
+                        <p className="product-tagline">{product.description}</p>
                         <button
                             className="remove-button"
                             onClick={() => removeFromCart(product.id)}>
